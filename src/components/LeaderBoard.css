@@ -1,0 +1,11 @@
+/* Table Min (Mobile first) */
+.wins-chart {
+    margin: 30px;
+    display: none;
+}
+
+@media(min-width: 767px) {
+    .wins-chart {
+        display: initial;
+    }
+}

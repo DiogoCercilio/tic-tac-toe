@@ -1,0 +1,10 @@
+@keyframes mymove {
+    from {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+}
+
+.winner-animation {
+    animation: mymove 1s 3;
+    font-size: 60px;
+}
